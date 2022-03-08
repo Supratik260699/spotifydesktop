@@ -1,0 +1,353 @@
+/*main screen background image*/
+body{
+	background-color: black;
+}
+/*queue design*/
+.queue{
+	background-color: black;
+	position: fixed;
+	margin-left: 80%;
+	height: 100px;
+    padding-right: 300px;
+    height:100%;
+	z-index: 15;
+}
+/*hovering boxes of queue*/
+.box:hover{
+	transform: scale(1.1);
+	transition-delay: 0.1s;
+}
+#side{
+    /*background-image: url("C:/Users/LENOVO/Desktop/Music player/photos/music.jpg");*/
+    width:290px;
+    height:250px;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+	box-shadow: 2px 2px 3px #00ffff, 0 0 5px #0000FF;
+}
+.small{
+    width: 50px;
+    height: 50px;
+    margin-right:10px;
+}
+.heading1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+/*design of font awesome icons*/
+.fas{
+	color: white;
+	float:right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.box{
+    color: black;
+    background-color: wheat;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+#main-screen{
+	height:75vh;
+	background-image: url("C:\\Users\\LENOVO\\Desktop\\Music player\\photos\\music.jfif");
+	opacity: 0.8;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin-top: -30px;
+	background-color: black;
+    margin-right: 300px;
+}
+.heading{
+	color:white;
+	font-style: oblique;
+	padding-left:150px;
+	padding-bottom:150px;
+}
+#good-morning{
+	color: white;
+	text-shadow: 2px 2px green;
+	padding: 25px 50px 75px 100px;
+	font-style: oblique;
+	font-size: 60px;
+}
+
+#name{
+	color: white;
+	text-shadow: 2px 2px green;
+	padding: 50px 30px 5px 80px;
+	margin-top: -150px;
+	margin-left: 50px;
+	font-style: oblique;
+	font-size: 40px;
+}
+#Mood{
+	color: white;
+}
+/*genres of music*/
+.genre{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-top: 10px;
+    height: fit-content;
+    width: 80vw;
+}
+.genre > div{
+	background-color: black;
+	width:275px;
+	margin: 10px;
+	text-align: center;
+	line-height: 1200%;
+}
+.anchor{
+    height: 200px;
+    display: grid;
+    border-radius: 50%;
+    width: 200px;
+}
+/*Flexboxes in genre*/
+.genre #Party{
+	background: url("C:/Users/LENOVO/Desktop/Music player/photos/parti.jpg");
+	color:white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 20px;
+	background-size: cover;
+}
+#Party:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.genre #Travel{
+	background: url("C:/Users/LENOVO/Desktop/Music player/photos/trovel.jfif");
+	color:white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 20px;
+	background-size: cover;
+}
+#Travel:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.genre #Gym{
+	background: url("C:/Users/LENOVO/Desktop/Music player/photos/gym.jpg");
+	color:white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 20px;
+	background-size: cover;
+}
+#Gym:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.genre #Love{
+	background: url("C:/Users/LENOVO/Desktop/Music player/photos/love.jfif");
+	color:white;
+	text-align: center;
+	font-style: oblique;
+	font-size: 20px;
+	background-size: cover;
+}
+#Love:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+/*Best of Artists*/
+#Artists{
+	color: white;
+}
+.Artist{
+    width:80vw;
+	padding-bottom: 100px;
+}
+.Artist > div{
+	display: inline-flex;
+  /*flex-wrap: wrap;*/
+  flex-direction: row;
+  height: 150px;
+  width:150px;
+  justify-content: flex-start;
+}
+
+.Artist #Arijit{
+	border:5px solid red;
+	border-radius: 100px;
+	color: white;
+	margin: 30px;
+	background-image: url("C:/Users/LENOVO/Desktop/Music player/photos/arijit.jpg");
+	background-size: cover;
+}
+#Arijit:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.Artist #Shreya{
+	border:5px solid red;
+	border-radius: 100px;
+	margin: 30px;
+	background-image: url("C:/Users/LENOVO/Desktop/Music player/photos/shreya1.jpg");
+	background-size: cover;
+}
+#Shreya:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.Artist #Udit{
+	border:5px solid red;
+	border-radius: 100px;
+	margin: 30px;
+	background-image: url("C:/Users/LENOVO/Desktop/Music player/photos/udit.jpg");
+	background-size: cover;
+}
+#Udit:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.Artist #Justin{
+	border:5px solid red;
+	border-radius: 100px;
+	margin: 30px;
+	background-image: url("C:/Users/LENOVO/Desktop/Music player/photos/justin.jpg");
+	background-size: cover;
+}
+#Justin:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.Artist #Jubin{
+	border:5px solid red;
+	border-radius: 100px;
+	margin: 30px;
+	background-image: url("C:/Users/LENOVO/Desktop/Music player/photos/zubin1.jpg");
+	background-size: cover;
+}
+#Jubin:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+#Armaan:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.8);
+	transition-delay: 0.1s;
+}
+.link{
+	height: 100px;
+	width: 100px;
+}
+.line{
+	padding: 5px;
+	position: relative;
+	background-image: url("C:\\Users\\LENOVO\\Desktop\\Music player\\photos\\bc.jpg");
+	background-color: antiquewhite;
+	background-size: cover;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+.play{
+	color:white;
+	position: absolute;
+	margin-bottom: -5px;
+}
+/*Trying*/
+* music player */
+
+/* minimize view */
+
+.music-player-section{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: var(--alpha-color);
+    backdrop-filter: blur(50px);
+    transition: 1s;
+}
+
+.music-seek-bar{
+    -webkit-appearance: none;
+    width: 100%;
+    position: absolute;
+    top: -4px;
+    height: 8px;
+    background: var(--secondary-color);
+    overflow: hidden;
+}
+
+.music-seek-bar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 10px;
+    width: 5px;
+    background: var(--primary-color);
+    cursor: pointer;
+    box-shadow: -400px 0 0 400px var(--primary-color);
+}
+
+.current-song-name{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.controls{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 30px;
+}
+
+.controls span{
+    display: none;
+    opacity: 0;
+    transition: 1s;
+}
+
+.music-player-section.active .controls{
+    justify-content: space-between;
+}
+
+.music-player-section.active .controls span{
+    font-size: 25px;
+    display: block;
+    opacity: 0.5;
+}
+
+.music-player-section.active .controls span.active{
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.controls .main i{
+    margin: 0 5px;
+    display: none;
+}
+
+.controls .main i.active{
+    display: inline;
+}
+

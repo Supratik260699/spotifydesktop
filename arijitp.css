@@ -1,0 +1,84 @@
+#first-pic{
+	background-image: url("C:/Users/LENOVO/Desktop/Music Player/photos/arijit.jpg");
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+}
+/*#first-pic.a.i{
+	color: white;
+}*/
+.animals{
+	/*border: 0.5px solid black;*/
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(163,161,161,0.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.attention{
+	/*border: 0.5px solid black;*/
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	background-color: rgba(163,161,161,0.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.phool{
+	/*border: 0.5px solid black;*/
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	background-color: rgba(163,161,161,0.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.animals:hover{
+	transform: scale(0.95);
+}
+.attention:hover{
+	transform: scale(0.95);
+}
+.phool:hover{
+	transform: scale(0.95);
+}
+.play{
+	color:white;
+	position: absolute;
+	padding-left: 50%;
+	padding-top: 150px;
+}
+.for{
+	color:white;
+	position: absolute;
+	padding-left: 60%;
+	padding-top: 160px;
+}
+.back{
+	color:white;
+	position: absolute;
+	padding-left: 40%;
+	padding-top: 160px;
+}
+.ran{
+	color:white;
+	position: absolute;
+	padding-left: 20%;
+	padding-top: 160px;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+.rep{
+	color:white;
+	position: absolute;
+	padding-left: 80%;
+	padding-top: 160px;
+}
+#pics{
+	width: 50px;
+	height: 50px;
+	padding-right: 10px;
+}
+.text{
+	margin-bottom: 10px;
+}
